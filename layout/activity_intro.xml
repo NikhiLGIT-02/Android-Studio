@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f3f4f6">
+
+    <!-- ImageView showing intro page image -->
+    <ImageView
+        android:layout_width="395dp"
+        android:layout_height="350dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/survey" />
+
+    <!-- Heading for intro page -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Survey Creator"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#6200EE"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/takeSurveyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#6200EE"
+        android:text="Take Survey"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

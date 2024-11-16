@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f3f4f6">
+
+    <!-- Additional Data Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional Information"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#6200EE"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+
+    <!-- Course Input -->
+    <EditText
+        android:id="@+id/courseInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Course"
+        android:backgroundTint="#6200EE"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+        android:importantForAccessibility="yes" />
+
+    <!-- Year Input -->
+    <EditText
+        android:id="@+id/yearInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Year"
+        android:inputType="number"
+        android:backgroundTint="#6200EE"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+        android:importantForAccessibility="yes" />
+
+    <!-- College Input -->
+    <EditText
+        android:id="@+id/collegeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter College Name"
+        android:backgroundTint="#6200EE"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+        android:importantForAccessibility="yes" />
+
+    <!-- Interest Checkboxes -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interests"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#6200EE"
+        android:layout_marginTop="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sports" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music" />
+
+    <CheckBox
+        android:id="@+id/checkBoxReading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reading" />
+
+    <!-- Submit Button to Complete Survey -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp" />
+</LinearLayout>
